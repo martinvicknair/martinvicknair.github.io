@@ -1,10 +1,385 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<title>Simple Page</title>
+  <title>Martin Vicknair - Github Portfolio</title>
+  <!-- Meta -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Martin Vicknair's Github Portfolio. Remote - Full Stack Developer - Wordpress">
+  <meta name="author" content="Martin Vicknair">
+  <link rel="shortcut icon" href="favicon.ico">
+
+  <link href='https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+  <!-- FontAwesome JS -->
+  <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js" integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9" crossorigin="anonymous"></script>
+
+  <!-- Global CSS -->
+  <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+
+  <!-- github calendar css -->
+  <link rel="stylesheet" href="assets/plugins/github-calendar/dist/github-calendar.css">
+  <!-- github activity css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+  <link rel="stylesheet" href="assets/plugins/github-activity/github-activity-0.1.5.min.css">
+
+  <!-- Theme CSS -->
+  <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+
 </head>
+
 <body>
-	<h1>Hello World!</h1>
+  <!-- ******HEADER****** -->
+  <header class="header">
+    <div class="container clearfix">
+      <img class="profile-image img-fluid float-left" style="border-radius: 50%;" src="assets/images/profile.jpg" alt="Martin Vicknair" width="180px" />
+      <div class="profile-content float-left">
+        <h1 class="name">Martin Vicknair</h1>
+        <h2 class="desc">Full Stack Developer</h2>
+        <ul class="social list-inline">
+          <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+          <li class="list-inline-item"><a href="#"><i class="fab fa-github-alt"></i></a></li>
+        </ul>
+      </div>
+      <!--//profile-->
+      <a class="btn btn-cta-primary float-right" href="https://themes.3rdwavemedia.com/" target="_blank"><i class="fas fa-paper-plane"></i> Contact Me</a>
+    </div>
+    <!--//container-->
+  </header>
+  <!--//header-->
+
+  <div class="container sections-wrapper">
+    <div class="row">
+      <div class="primary col-lg-8 col-12">
+        <section class="about section">
+          <div class="section-inner">
+            <h2 class="heading">About Me</h2>
+            <div class="content">
+              <p>Write a brief intro about yourself. It's a good idea to include your personal interests and hobbies as well. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+                natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec. Commodo ligula eget dolor. Aenean massa.</p>
+
+            </div>
+            <!--//content-->
+          </div>
+          <!--//section-inner-->
+        </section>
+        <!--//section-->
+
+        <section class="latest section">
+          <div class="section-inner">
+            <h2 class="heading">Latest Projects</h2>
+            <div class="content">
+
+              <div class="item featured text-center">
+                <h3 class="title"><a href="https://summerfoodrocks.org" target="_blank">summerfoodrocks.org</a></h3>
+                <p class="summary">Built with Node.js and Bootstrap</p>
+                <div class="featured-image has-ribbon">
+                  <a href="#" target="_blank">
+                    <img class="img-fluid project-image" style="border: solid 1px grey;" src="assets/images/sfr-screenshot.png" alt="project name" />
+                  </a>
+                  <div class="ribbon">
+                    <div class="text">New</div>
+                  </div>
+                </div>
+
+                <div class="desc text-left">
+                  <p>Free SFSP resources, including a Summer Meals Site Finder and electronic Meal Counter app. </p>
+                  <p>Find USDA-approved meal sites in your neighborhood, where children and teens age 18 and younger receive free meals in a safe and supervised environment.</p>
+                  <p>This is an electronic Point of Service Meal Capture app designed for use in USDA-approved programs. It replaces the paper Daily Meal Count Form used in programs such as SFSP.</p>
+                </div>
+                <!--//desc-->
+                <a class="btn btn-cta-secondary" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/velocity-bootstrap-theme-for-startup-products/" target="_blank"><i class="fas fa-thumbs-up"></i> Back my project</a>
+              </div>
+              <!--//item-->
+              <hr class="divider" />
+              <div class="item row">
+                <a class="col-md-4 col-12" href="#" target="_blank">
+                  <img class="img-fluid project-image" src="assets/images/lfdlt-screenshot.png" alt="project name" />
+                </a>
+                <div class="desc col-md-8 col-12">
+                  <h3 class="title"><a href="#" target="_blank">luisfelipedelatorre.com</a></h3>
+                  <p class="mb-2">WordPress site showcasing the portfolio of Mexican artist Luis Felipe de la Torre</p>
+                  <p><a class="more-link" href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/instance-bootstrap-portfolio-theme-for-developers/" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
+                </div>
+                <!--//desc-->
+              </div>
+              <!--//item-->
+
+              <div class="item row">
+                <a class="col-md-4 col-12" href="#" target="_blank">
+                  <img class="img-fluid project-image" src="assets/images/projects/project-2.png" alt="project name" />
+                </a>
+                <div class="desc col-md-8 col-12">
+                  <h3 class="title"><a href="#" target="_blank">realde14.net</a></h3>
+                  <p class="mb-2">As mentioned in "Lonely Planet: Mexico" as the go-to reference for Real de Catorce, Mexico</p>
+                  <p><a class="more-link" href="#" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
+                </div>
+                <!--//desc-->
+              </div>
+              <!--//item-->
+
+
+
+            </div>
+            <!--//content-->
+          </div>
+          <!--//section-inner-->
+        </section>
+        <!--//section-->
+
+        <!-- <section class="projects section">
+          <div class="section-inner">
+            <h2 class="heading">Other Projects</h2>
+            <div class="content">
+              <div class="item">
+                <h3 class="title"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/free-bootstrap4-resume-cv-template-for-developers-pillar/">Pillar - Free Bootstrap 4 Resume/CV Template for Developers</a> <span class="badge badge-theme">Free</span></h3>
+                <p class="summary">Provide a brief description of your project. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatu.</p>
+                <p><a class="more-link" href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/free-bootstrap4-resume-cv-template-for-developers-pillar/" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
+              </div>
+
+              <div class="item">
+                <h3 class="title"><a href="#">Project Title Cras eget lacus</a> <span class="badge badge-theme">Open Source</span></h3>
+                <p class="summary">Provide a brief description of your project. Maecenas ornare ultricies risus, in fermentum augue consectetur in. Vestibulum vitae mauris iaculis, sollicitudin velit in, molestie nulla. </p>
+                <p><a class="more-link" href="#" target="_blank"><i class="fas fa-external-link-alt"></i>View on GitHub</a></p>
+              </div>
+
+              <div class="item">
+                <h3 class="title"><a href="#">Project Title Maecenas Ornare</a> <span class="badge badge-theme">Open Source</span></h3>
+                <p class="summary">Provide a brief description of your project. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel purus enim. Etiam tortor felis, fermentum ac ultrices sed.</p>
+                <p><a class="more-link" href="#" target="_blank"><i class="fas fa-external-link-alt"></i>View on GitHub</a></p>
+              </div>
+
+              <a class="btn btn-cta-secondary" href="#">More on CoderWall <i class="fas fa-chevron-right"></i></a>
+
+            </div>
+          </div>
+
+        </section> -->
+
+
+        <!-- <section class="experience section">
+          <div class="section-inner">
+            <h2 class="heading">Work Experience</h2>
+            <div class="content">
+              <div class="item">
+                <h3 class="title">Co-Founder & Lead Developer - <span class="place"><a href="#">Startup Hub</a></span> <span class="year">(2014 - Present)</span></h3>
+                <p>Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Donec vitae sapien ut libero venenatis
+                  faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.</p>
+              </div>
+              <div class="item">
+                <h3 class="title">Software Engineer - <span class="place"><a href="#">Google</a></span> <span class="year">(2013 - 2014)</span></h3>
+                <p>Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.</p>
+              </div>
+
+              <div class="item">
+                <h3 class="title">Software Engineer - <span class="place"><a href="#">eBay</a></span> <span class="year">(2012 - 2013)</span></h3>
+                <p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.</p>
+              </div>
+
+            </div>
+          </div>
+        </section> -->
+
+        <section class="github section">
+          <div class="section-inner">
+            <h2 class="heading">My GitHub</h2>
+
+              <div id="github-graph" class="github-graph">
+
+              </div>
+              <!--//github-graph-->
+
+                <!--//Usage: https://caseyscarborough.com/projects/github-activity/ -->
+                <div id="ghfeed" class="ghfeed">
+                </div>
+                <!--//ghfeed-->
+
+          </div>
+          <!--//secton-inner-->
+        </section>
+        <!--//section-->
+      </div>
+      <!--//primary-->
+      <div class="secondary col-lg-4 col-12">
+        <aside class="info aside section">
+          <div class="section-inner">
+            <h2 class="heading sr-only">Basic Information</h2>
+            <div class="content">
+              <ul class="list-unstyled">
+                <li><i class="fas fa-map-marker-alt"></i><span class="sr-only">Location:</span>Denver, CO</li>
+                <li><i class="fas fa-envelope"></i><span class="sr-only">Email:</span><a href="#">martinvicknair@gmail.com</a></li>
+                <li><i class="fas fa-link"></i><span class="sr-only">Website:</span><a href="#">https://martinv.io</a></li>
+              </ul>
+            </div>
+            <!--//content-->
+          </div>
+          <!--//section-inner-->
+        </aside>
+        <!--//aside-->
+
+        <aside class="skills aside section">
+          <div class="section-inner">
+            <h2 class="heading">Skills</h2>
+            <div class="content">
+              <p class="intro"></p>
+
+              <div class="skillset">
+
+                <div class="item">
+                  <h3 class="level-title">Javascript &amp; jQuery<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Expert</span></h3>
+                  <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width:95%">
+                    95%
+                  </div>
+                  <!--//level-bar-->
+                </div>
+                <!--//item-->
+
+                <div class="item">
+                  <h3 class="level-title">HTML5, CSS3<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Expert</span></h3>
+                  <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width:95%">
+                    95%
+                  </div>
+                  <!--//level-bar-->
+                </div>
+                <!--//item-->
+
+                <div class="item">
+                  <h3 class="level-title">WordPress<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Pro</span></h3>
+                  <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width:95%">
+                    95%
+                  </div>
+                  <!--//level-bar-->
+                </div>
+                <!--//item-->
+
+                <div class="item">
+                  <h3 class="level-title">Node.js<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Pro</span></h3>
+                  <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                    80%
+                  </div>
+                  <!--//level-bar-->
+                </div>
+                <!--//item-->
+
+                <!-- <p><a class="more-link" href="#"><i class="fas fa-external-link-alt"></i>More on Coderwall</a></p> -->
+              </div>
+            </div>
+            <!--//content-->
+          </div>
+          <!--//section-inner-->
+        </aside>
+        <!--//section-->
+
+        <!-- <aside class="testimonials aside section">
+          <div class="section-inner">
+            <h2 class="heading">Testimonials</h2>
+            <div class="content">
+              <div class="item">
+                <blockquote class="quote">
+                  <p><i class="fas fa-quote-left"></i>James is an excellent software engineer and he is passionate about what he does. You can totally count on him to deliver your projects!</p>
+                </blockquote>
+                <p class="source"><span class="name">Tim Adams</span><br /><span class="title">Curabitur commodo</span></p>
+              </div>
+
+              <p><a class="more-link" href="#"><i class="fas fa-external-link-alt"></i>More on Linkedin</a></p>
+
+            </div>
+          </div>
+        </aside> -->
+
+        <aside class="education aside section">
+          <div class="section-inner">
+            <h2 class="heading">Education</h2>
+            <div class="content">
+              <div class="item">
+                <h3 class="title"><i class="fas fa-graduation-cap"></i> Full Stack Developer</h3>
+                <h4 class="university">Denver University Boot Camp <span class="year">(May 2018)</span></h4>
+              </div>
+              <!--//item-->
+              <div class="item">
+                <h3 class="title"><i class="fa fa-certificate"></i> Relational Database Design</h3>
+                <h4 class="university">LSU Continuing Education <span class="year">(2008)</span></h4>
+              </div>
+              <!--//item-->
+              <div class="item">
+                <h3 class="title"><i class="fa fa-certificate"></i> Certified Ethical Hacker</h3>
+                <h4 class="university">EC-Council <span class="year">(2006)</span></h4>
+              </div>
+              <!--//item-->
+              <div class="item">
+                <h3 class="title"><i class="fa fa-certificate"></i> Network+</h3>
+                <h4 class="university">CompTIA <span class="year">(2004)</span></h4>
+              </div>
+              <!--//item-->
+              <div class="item">
+                <h3 class="title"><i class="fas fa-graduation-cap"></i> BA International Studies</h3>
+                <h4 class="university">Louisiana State University <span class="year">(2001)</span></h4>
+              </div>
+              <!--//item-->
+            </div>
+            <!--//content-->
+          </div>
+          <!--//section-inner-->
+        </aside>
+        <!--//section-->
+
+        <aside class="languages aside section">
+          <div class="section-inner">
+            <h2 class="heading">Languages</h2>
+            <div class="content">
+              <ul class="list-unstyled">
+                <li class="item">
+                  <span class="title"><strong>English:</strong></span>
+                  <span class="level">Native Speaker <br class="visible-xs" /><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> </span>
+                </li>
+                <!--//item-->
+                <li class="item">
+                  <span class="title"><strong>Spanish:</strong></span>
+                  <span class="level">Professional Proficiency <br class="visible-sm visible-xs" /><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star-half"></i></span>
+                </li>
+                <!--//item-->
+              </ul>
+            </div>
+            <!--//content-->
+          </div>
+          <!--//section-inner-->
+        </aside>
+        <!--//section-->
+
+
+
+      </div>
+      <!--//secondary-->
+    </div>
+    <!--//row-->
+  </div>
+  <!--//masonry-->
+
+  <!-- ******FOOTER****** -->
+  <footer class="footer">
+    <div class="container text-center">
+      <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can check out our commercial license options via our website: themes.3rdwavemedia.com */-->
+      <small class="copyright">Designed with <i class="fas fa-heart"></i> by <a href="https://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
+    </div>
+    <!--//container-->
+  </footer>
+  <!--//footer-->
+
+  <!-- Javascript -->
+  <script type="text/javascript" src="assets/plugins/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="assets/plugins/popper.min.js"></script>
+  <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="assets/plugins/jquery-rss/dist/jquery.rss.min.js"></script>
+  <!-- github calendar plugin -->
+  <script type="text/javascript" src="assets/plugins/github-calendar/dist/github-calendar.min.js"></script>
+  <!-- github activity plugin -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
+  <script type="text/javascript" src="assets/plugins/github-activity/github-activity-0.1.5.min.js"></script>
+  <!-- custom js -->
+  <script type="text/javascript" src="assets/js/main.js"></script>
 </body>
+
 </html>
