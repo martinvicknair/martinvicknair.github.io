@@ -15,6 +15,7 @@
 
   <!-- Custom styles for this template -->
   <link href="css/business-frontpage.css" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/github-calendar-responsive.css" />
 
 </head>
 
@@ -87,8 +88,8 @@
       <div class="col-md-8 mt-3">
         <!-- <h2>Programming Technician</h2> -->
         <!-- <hr> -->
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A deserunt neque tempore recusandae animi soluta quasi? Asperiores rem dolore eaque vel, porro, soluta unde debitis aliquam laboriosam. Repellat explicabo, maiores!</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis optio neque consectetur consequatur magni in nisi, natus beatae quidem quam odit commodi ducimus totam eum, alias, adipisci nesciunt voluptate. Voluptatum.</p>
+        <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A deserunt neque tempore recusandae animi soluta quasi? Asperiores rem dolore eaque vel, porro, soluta unde debitis aliquam laboriosam. Repellat explicabo, maiores!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis optio neque consectetur consequatur magni in nisi, natus beatae quidem quam odit commodi ducimus totam eum, alias, adipisci nesciunt voluptate. Voluptatum.</p> -->
         <!-- <a class="btn btn-primary btn-lg" href="#">Call to Action &raquo;</a> -->
       </div>
       <div class="col-md-4">
@@ -118,11 +119,17 @@
         <div class="card h-100">
           <img class="card-img-top" src="/assets/sfr.png" alt="">
           <div class="card-body">
-            <h4 class="card-title">SummerFoodRocks.org</h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus.</p>
-          </div>
+            <a href="https://summerfoodrocks.org/sitefinder"><h4 class="card-title">SummerFoodRocks.org</h4></a>
+            <p class="card-text"></p>
+            <p class="card-text">
+              <ul class="">
+                <li class="">NodeJS</li>
+                <li class="">Bootstrap</li>
+                <li class="">HandlebarsJS</li>
+              </ul>
+            </p>          </div>
           <div class="card-footer">
-            <!-- <a href="#" class="btn btn-primary">Find Out More!</a> -->
+            <a href="https://github.com/martinvicknair/summerfoodrocks-node" class="btn btn-outline-secondary btn-sm">Code on GitHub</a>
           </div>
         </div>
       </div>
@@ -130,11 +137,18 @@
         <div class="card h-100">
           <img class="card-img-top" src="/assets/mealcounter.png" alt="">
           <div class="card-body">
-            <h4 class="card-title">SFSP Meal Counter</h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus.</p>
+            <a href="https://summerfoodrocks.org/mealcounter"><h4 class="card-title">SFSP Meal Counter</h4></a>
+            <p class="card-text">This is an electronic Point of Service Meal Capture app designed for use in USDA-approved programs. It replaces the paper Daily Meal Count Form used in programs such as SFSP and CACFP.</p>
+            <p class="card-text">
+              <ul class="">
+                <li class="">HTML5</li>
+                <li class="">JavaScript</li>
+                <li class="">Bootstrap</li>
+              </ul>
+            </p>
           </div>
           <div class="card-footer">
-            <!-- <a href="#" class="btn btn-primary">Find Out More!</a> -->
+            <a href="https://github.com/martinvicknair/meal-counter" class="btn btn-outline-secondary btn-sm">Code on GitHub</a>
           </div>
         </div>
       </div>
@@ -147,7 +161,7 @@
             <p class="card-text">Spanish language WordPress website for Mexican artist Luis Felipe de la Torre.</p>
           </div>
           <div class="card-footer">
-            <!-- <a href="#" class="btn btn-primary">Find Out More!</a> -->
+            <a href="https://luisfelipedelatorre.com" class="btn btn-outline-secondary btn-sm">View website</a>
           </div>
         </div>
       </div>
@@ -163,12 +177,12 @@
           </div>
         </div>
       </div> -->
-      <div class="col-md-4 mb-5">
+      <div class="col-md-4">
         <div class="card h-100">
           <img class="card-img-top" src="/assets/DevOpsDays.png" alt="">
           <div class="card-body">
             <h4 class="card-title">Dev Ops</h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus totam ut praesentium aut.</p>
+            <p class="card-text"></p>
           </div>
           <div class="card-footer">
             <!-- <a href="#" class="btn btn-primary">Find Out More!</a> -->
@@ -190,6 +204,21 @@
     </div>
     <!-- /.row -->
 
+    <div class="row">
+      <div class="col-lg-12">
+        <hr>
+          <section class="github section mb-5">
+              <div class="section-inner">
+                  <h4><i class="fab fa-github ml-3"></i> GitHub Activity:</h4>
+                  <div class="calendar">
+                      <!-- Loading stuff -->
+                      Loading the data just for you.
+                  </div>
+              </div>
+          </section>
+      </div>
+  </div>
+
   </div>
   <!-- /.container -->
 
@@ -205,6 +234,14 @@
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <script src="./assets/github-calendar.min.js"></script>
+  <script src="https://www.w3counter.com/tracker.js?id=125033"></script>
+  <script>
+      GitHubCalendar(".calendar", "martinvicknair", {
+          responsive: true
+      });
+  </script>
 
 </body>
 
