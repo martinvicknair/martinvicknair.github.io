@@ -1,3 +1,3 @@
-# martinvicknair.github.io
-
-###### >>redirecting to github.com/martinvicknair...
+<meta http-equiv="refresh" content="0; url=https://github.com/martinvicknair" />
+martinvicknair.github.io </br>
+>>redirecting to github.com/martinvicknair... 
